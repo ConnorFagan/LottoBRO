@@ -21,6 +21,10 @@ public class Calculator {
 		this.ticketPrice = 0.0;
 	}
 	
+	public static void luca() {
+		System.out.println("Luca will now show his visiual representation of your chances.! :)");
+	}
+	
 	public double chanceOfWinning() {
 		// % chance of winning lotto
 		return numTickets * winLottoChance * 100;
@@ -69,6 +73,7 @@ public class Calculator {
 		// why does this return a negative number but the money you really get is positive
 		System.out.println("Money won or lost per ticket: " + urChances.moneyLostOrWonPerTicket());
 		System.out.println();
+		luca();
 
 	}
 
